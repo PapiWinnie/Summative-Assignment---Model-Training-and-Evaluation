@@ -6,7 +6,7 @@ This project addresses the challenge of agricultural yield forecasting by system
 
 ## 2. Dataset Description
 
-The research utilizes the Agriculture Crop Yield Dataset, consisting of 336,776 records.
+The research utilizes the [Agriculture Crop Yield Dataset](https://www.kaggle.com/datasets/samuelotiattakorah/agriculture-crop-yield), consisting of 336,776 records.
 
 ### Feature Metadata:
 
@@ -31,12 +31,12 @@ To ensure reproducibility, follow these steps:
 
 **Clone the repository:**
 ```bash
-git clone [GITHUB_REPO_URL]
-cd [REPO_NAME]
+git clone https://github.com/PapiWinnie/Summative-Assignment---Model-Training-and-Evaluation.git
+cd Summative-Assignment---Model-Training-and-Evaluation
 ```
 
 **Download the Data:**
-* Download `crop_yield.csv` from [Kaggle][KAGGLE_DATASET_URL]
+* Download `crop_yield.csv` from [Kaggle](https://www.kaggle.com/datasets/samuelotiattakorah/agriculture-crop-yield)
 * Place the file in the root directory or update the path in the notebook:
 ```python
 crop_yield_data = pd.read_csv('crop_yield.csv')
@@ -64,11 +64,11 @@ The project follows a modular 7-experiment structure:
 | XGBoost | 0.4006 | 0.9126 | 0.0000 |
 | Random Forest | 0.3999 | 0.9127 | 0.0028 |
 
-Detailed analysis, including Learning Curves and Error Distributions, can be found in the [final PDF report][REPORT_PDF_URL].
+Detailed analysis, including Learning Curves and Error Distributions, can be found in the [final report](https://docs.google.com/document/d/1X2H90etLvpPPn72OOg97QHgve0bpAAD9qGHXyOCSaDM/edit?usp=sharing).
 
 ## 6. Project Deliverables
 
-* **Final Report:** [Link to PDF in Repo][REPORT_PDF_URL]
+* **Final Report:** [View Report](https://docs.google.com/document/d/1X2H90etLvpPPn72OOg97QHgve0bpAAD9qGHXyOCSaDM/edit?usp=sharing)
 * **Presentation Video:** [Link to YouTube/Vimeo/Drive][PRESENTATION_VIDEO_URL]
 
 ## 7. Citation (IEEE Style)
@@ -76,3 +76,5 @@ Detailed analysis, including Learning Curves and Error Distributions, can be fou
 [1] S. O. Attakorah, "Agriculture Crop Yield Dataset," Kaggle, 2024. [Online]. Available: https://www.kaggle.com/datasets/samuelotiattakorah/agriculture-crop-yield.
 
 ---
+
+**Note:** Add your presentation video link by replacing `[PRESENTATION_VIDEO_URL]` with the actual URL.
